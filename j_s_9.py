@@ -2,7 +2,7 @@ import subprocess
 import telebot
 
 # الحقوق محفوظه ل مارو @j_s_9 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "6895697857:AAHQPfgUGmlTv9eiU3jaN81ZUZMKm390Lvk"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
