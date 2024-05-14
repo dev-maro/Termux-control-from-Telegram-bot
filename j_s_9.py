@@ -1,3 +1,5 @@
+import os 
+os.system("pip install subprocess")
 import subprocess
 import telebot
 
