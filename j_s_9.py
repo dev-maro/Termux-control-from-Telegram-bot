@@ -1,10 +1,12 @@
 import os 
-os.system("pip install subprocess")
+try:
+	import telebot 
+except ImportError:
+    os.system('pip install telebot')
+    import telebot
 import subprocess
-import telebot
-
 # الحقوق محفوظه ل مارو @j_s_9 
-TOKEN = "6895697857:AAHQPfgUGmlTv9eiU3jaN81ZUZMKm390Lvk"
+TOKEN = "6796635661:AAGnviODW8qP2bfL7WzN-J3yd5OtJJ4yGzQ"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
